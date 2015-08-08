@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Indigo\\iterators\\": "src/"
+            "Indigo\\Iterators\\": "src/"
         }
     },
     "scripts": {
