@@ -20,7 +20,9 @@ $ composer require indigophp/iterators
 ```
 
 
-## Usage
+## Documentation
+
+Please see the documentation in the [docs](docs) directory or the [website](http://iterators.readthedocs.org/).
 
 
 ## Testing
