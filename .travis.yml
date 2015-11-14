@@ -1,5 +1,11 @@
 language: php
 
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
 php:
   - 5.4
   - 5.5
@@ -12,15 +18,10 @@ env:
     - TEST_COMMAND="composer test"
 
 matrix:
-  allow_failures:
-    - php: 7.0
   fast_finish: true
   include:
     - php: 5.4
-      env:
-        - COMPOSER_FLAGS="--prefer-stable --prefer-lowest"
-        - COVERAGE=true
-        - TEST_COMMAND="composer test-ci"
+      env: COMPOSER_FLAGS="--prefer-stable --prefer-lowest" COVERAGE=true TEST_COMMAND="composer test-ci"
 
 before_install:
   - travis_retry composer self-update

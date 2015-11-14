@@ -5,7 +5,6 @@
 [![Build Status](https://img.shields.io/travis/indigophp/iterators.svg?style=flat-square)](https://travis-ci.org/indigophp/iterators)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/indigophp/iterators.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/iterators)
 [![Quality Score](https://img.shields.io/scrutinizer/g/indigophp/iterators.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/iterators)
-[![HHVM Status](https://img.shields.io/hhvm/indigophp/iterators.svg?style=flat-square)](http://hhvm.h4cc.de/package/indigophp/iterators)
 [![Total Downloads](https://img.shields.io/packagist/dt/indigophp/iterators.svg?style=flat-square)](https://packagist.org/packages/indigophp/iterators)
 
 **Useful iterators.**
@@ -30,11 +29,6 @@ Please see the documentation in the [docs](docs) directory or the [website](http
 ``` bash
 $ composer test
 ```
-
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 
 ## Security
