@@ -9,10 +9,10 @@ namespace Indigo\Iterators;
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-class ManualCountIterator extends \AppendIterator
+class AppendIterator extends \AppendIterator
 {
     /**
-     * @param \Traversable $iterator
+     * @param \Traversable $iterators
      */
     public function __construct(\Traversable $iterators)
     {
