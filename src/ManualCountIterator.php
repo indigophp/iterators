@@ -26,6 +26,7 @@ class ManualCountIterator extends \IteratorIterator implements \Countable
 
         parent::__construct($iterator);
     }
+
     /**
      * {@inheritdoc}
      */
