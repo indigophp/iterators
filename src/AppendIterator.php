@@ -16,6 +16,8 @@ class AppendIterator extends \AppendIterator
      */
     public function __construct(\Traversable $iterators)
     {
+        parent::__construct();
+
         iterator_apply($iterators, [$this, 'append']);
     }
 }
