@@ -1,6 +1,6 @@
 <?php
 
-namespace Indigo\Iterator\Tests;
+namespace Tests\Indigo\Iterator;
 
 use Indigo\Iterator\ManualCountIterator;
 

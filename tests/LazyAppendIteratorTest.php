@@ -2,15 +2,15 @@
 
 namespace Tests\Indigo\Iterator;
 
-use Indigo\Iterator\AppendIterator;
+use Indigo\Iterator\LazyAppendIterator;
 
-class AppendIteratorTest extends AppendIteratorTestCase
+class LazyAppendIteratorTest extends AppendIteratorTestCase
 {
     /**
      * {@inheritdoc}
      */
     protected function createAppendIterator(\Iterator $iterators)
     {
-        return new AppendIterator($iterators);
+        return new LazyAppendIterator($iterators);
     }
 }
