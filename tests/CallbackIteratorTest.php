@@ -10,16 +10,12 @@ class CallbackIteratorTest extends \PHPUnit_Framework_TestCase
     {
         $counter = 1;
 
-        $current = function() use (&$counter) {
+        $current = $key = function() use (&$counter) {
             return $counter;
         };
 
         $next = function() use (&$counter) {
             $counter++;
-        };
-
-        $key = function() use (&$counter) {
-            return $counter;
         };
 
         $valid = function() use (&$counter) {
