@@ -1,6 +1,6 @@
 <?php
 
-namespace Indigo\Iterators;
+namespace Indigo\Iterator;
 
 /**
  * Wraps an iterator and allows to set the count manually.

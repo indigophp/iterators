@@ -10,7 +10,7 @@ This allows you to create iterators for data which would be too long to count us
 The iterator also implements `Countable` interface to make counting easier.
 
 ``` php
-use Indigo\Iterators\ManualCountIterator;
+use Indigo\Iterator\ManualCountIterator;
 
 $iterator = new ManualCountIterator(new \ArrayIterator([]), 0);
 

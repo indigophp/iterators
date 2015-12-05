@@ -1,6 +1,6 @@
 <?php
 
-namespace Indigo\Iterators;
+namespace Indigo\Iterator;
 
 /**
  * This is an extension of the SPL AppendIterator.
@@ -18,6 +18,8 @@ class AppendIterator extends \AppendIterator
     {
         parent::__construct();
 
-        iterator_apply($iterators, [$this, 'append']);
+        foreach ($iterators as $iterator) {
+            $this->append($iterator);
+        }
     }
 }

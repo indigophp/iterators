@@ -1,8 +1,8 @@
 <?php
 
-namespace Indigo\Iterators\Tests;
+namespace Indigo\Iterator\Tests;
 
-use Indigo\Iterators\ManualCountIterator;
+use Indigo\Iterator\ManualCountIterator;
 
 class ManualCountIteratorTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Indigo\Iterators\Tests;
+namespace Indigo\Iterator\Tests;
 
-use Indigo\Iterators\AppendIterator;
+use Indigo\Iterator\AppendIterator;
 
 class AppendIteratorTest extends \PHPUnit_Framework_TestCase
 {
@@ -27,7 +27,7 @@ class AppendIteratorTest extends \PHPUnit_Framework_TestCase
             $values[] = $value;
         }
 
-        $this->assertEquals($keys, [0, 1]);
+        $this->assertEquals($keys, [0, 0]);
         $this->assertEquals($values, ['item1', 'item2']);
     }
 }
