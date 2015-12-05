@@ -66,7 +66,7 @@ class LazyAppendIterator extends \AppendIterator
     {
         $this->lazyAppend();
 
-        return parent::rewind();
+        parent::rewind();
     }
 
     /**
